@@ -1,0 +1,460 @@
+{
+  "users": [
+    {
+      "id": "user-demo-rafiq",
+      "username": "rafiq_ahmed",
+      "email": "rafiq.ahmed@example.com",
+      "fullName": "Rafiqul Ahmed",
+      "age": 42,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "division": "Dhaka",
+      "area": "Dhanmondi",
+      "phone": "+880 1711-004821",
+      "physicalProblems": [
+        "Hypertension (High BP)",
+        "Type 2 Diabetes"
+      ],
+      "drugHistory": [
+        "Metformin 500mg (twice daily)",
+        "Amlodipine 5mg (morning)"
+      ],
+      "createdAt": "2026-10-12T08:00:00.000Z",
+      "passwordSalt": "82727d9596dd09818016cc476cb640c2",
+      "passwordHash": "bafc4b7a82ca5a19629ec53aa35649bf3a9c9cad49adbc1761ffb106ca83fdf793c3995c276b3da968ba3731dfd7efdedee879702f68e2c2b25decbd41043b3f"
+    },
+    {
+      "id": "user-6479cba1",
+      "username": "farhan_dhk",
+      "email": "farhan@example.com",
+      "fullName": "Farhan Chowdhury",
+      "age": 38,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "division": "Dhaka",
+      "area": "Dhanmondi",
+      "phone": "",
+      "physicalProblems": [
+        "Hypertension (High BP)"
+      ],
+      "drugHistory": [
+        "Amlodipine 5mg"
+      ],
+      "createdAt": "2026-11-24T05:57:59.482Z",
+      "passwordSalt": "832d79eca011ef0a934bfdf131770814",
+      "passwordHash": "48c838805d4b4d3151631cdcf3132c59561702e12a7974f1972604442d06bfb348cf7810636adf140affe018e2267830f9e455d7ccf8cb6a3a1d4c4a9cbda718"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "238c4fa7b4ca60a5fd288f31b2caa73549bee24cad42218f32890175ef9de10b",
+      "userId": "user-6479cba1",
+      "createdAt": "2026-11-24T05:57:59.549Z",
+      "expiresAt": 1796104679549
+    },
+    {
+      "token": "d6c24ccef22743897d3969bedd6f37d0803c834c18cf387ad0f123aedda63ffd",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:01:07.845Z",
+      "expiresAt": 1796104867845
+    },
+    {
+      "token": "e4428f56a914a272e030814dfd0596386d3faa08ac4727924233b9f123ff28d5",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:11:21.855Z",
+      "expiresAt": 1796105481855
+    },
+    {
+      "token": "ccf2f5cea8770e8f968018e911d30ab485e30d104887bf3546f455800d36163d",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:12:13.784Z",
+      "expiresAt": 1796105533784
+    },
+    {
+      "token": "ddea25a17e04e7192c814c350ca1952306649a57724be607c84cabbdeb91dda9",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:21:39.851Z",
+      "expiresAt": 1796106099851
+    },
+    {
+      "token": "259c0d5a2e61aa9c7e7a89efe5d5ec936083f270eed4e1d0adf875658afc7666",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:26:14.357Z",
+      "expiresAt": 1796106374357
+    }
+  ],
+  "triageHistory": [
+    {
+      "id": "tri-0ba953a9",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:13:10.213Z",
+      "input": {
+        "patientName": "Rafiqul Ahmed",
+        "age": 42,
+        "gender": "Male",
+        "division": "Dhaka",
+        "area": "Dhanmondi",
+        "physicalProblems": [
+          "Hypertension (High BP)",
+          "Type 2 Diabetes"
+        ],
+        "drugHistory": [
+          "Metformin 500mg (twice daily)",
+          "Amlodipine 5mg (morning)"
+        ],
+        "chiefComplaint": "আমার জ্বর আছে, সাথে আমার সাত দিন ধরে বুকে ব্যথা আছে কিন্তু কোনো শ্বাসকষ্ট নেই",
+        "selectedSymptoms": [],
+        "duration": "About 1 week",
+        "severity": "Moderate"
+      },
+      "result": {
+        "source": "local",
+        "primaryDepartmentId": "cardiology",
+        "specialistTitle": "Cardiologist",
+        "departmentName": "Cardiology",
+        "bengaliName": "হৃদরোগ বিভাগ",
+        "secondaryDepartmentId": "medicine",
+        "secondarySpecialistTitle": "Internal Medicine Specialist",
+        "urgency": "routine",
+        "urgencyReason": "Suitable for a scheduled chamber consultation with the recommended specialist.",
+        "clinicalSummary": "Based on Rafiqul Ahmed's age (42 yrs) medical history (Hypertension (High BP), Type 2 Diabetes) and chief complaint, you should visit a Cardiologist (Cardiology · হৃদরোগ বিভাগ). If symptoms overlap or initial tests point elsewhere, a Internal Medicine Specialist (Internal Medicine) is a helpful secondary consultation.",
+        "medicationConsiderations": "Current medications (Metformin 500mg (twice daily), Amlodipine 5mg (morning)) have been noted for your specialist to review for dosage adjustments or interactions.",
+        "questionsForDoctor": [
+          "Could my symptoms be related to my existing conditions or current medications?",
+          "Which diagnostic tests (blood work, imaging, or screening) should I complete before follow-up?",
+          "What warning signs mean I should seek urgent hospital care immediately?"
+        ],
+        "prepChecklist": [
+          "Bring recent blood pressure readings and any past ECG or Echocardiogram reports",
+          "List all blood pressure, cholesterol, or blood-thinner medications"
+        ],
+        "matchedSignals": [
+          "বুকে ব্যথা",
+          "History: hypertension",
+          "History: high bp",
+          "Medication: amlodipine"
+        ]
+      }
+    },
+    {
+      "id": "tri-8aea4abc",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:12:41.602Z",
+      "input": {
+        "patientName": "Rafiqul Ahmed",
+        "age": 42,
+        "gender": "Male",
+        "division": "Dhaka",
+        "area": "Dhanmondi",
+        "physicalProblems": [
+          "Hypertension (High BP)",
+          "Type 2 Diabetes"
+        ],
+        "drugHistory": [
+          "Metformin 500mg (twice daily)",
+          "Amlodipine 5mg (morning)"
+        ],
+        "chiefComplaint": "আমার শ্বাসকষ্ট আছে কিন্তু কোনো বুকে ব্যথা নেই এবং কোনো শুকনো কাশি নেই",
+        "selectedSymptoms": [],
+        "duration": "2–3 days",
+        "severity": "Moderate"
+      },
+      "result": {
+        "source": "local",
+        "primaryDepartmentId": "pulmonology",
+        "specialistTitle": "Pulmonologist",
+        "departmentName": "Respiratory & Pulmonology",
+        "bengaliName": "বক্ষব্যাধি বিভাগ",
+        "secondaryDepartmentId": "cardiology",
+        "secondarySpecialistTitle": "Cardiologist",
+        "urgency": "routine",
+        "urgencyReason": "Suitable for a scheduled chamber consultation with the recommended specialist.",
+        "clinicalSummary": "Based on Rafiqul Ahmed's age (42 yrs) medical history (Hypertension (High BP), Type 2 Diabetes) and chief complaint, you should visit a Pulmonologist (Respiratory & Pulmonology · বক্ষব্যাধি বিভাগ). If symptoms overlap or initial tests point elsewhere, a Cardiologist (Cardiology) is a helpful secondary consultation.",
+        "medicationConsiderations": "Current medications (Metformin 500mg (twice daily), Amlodipine 5mg (morning)) have been noted for your specialist to review for dosage adjustments or interactions.",
+        "questionsForDoctor": [
+          "Could my symptoms be related to my existing conditions or current medications?",
+          "Which diagnostic tests (blood work, imaging, or screening) should I complete before follow-up?",
+          "What warning signs mean I should seek urgent hospital care immediately?"
+        ],
+        "prepChecklist": [
+          "Bring any recent Chest X-ray or spirometry reports",
+          "Carry your current inhalers or nebulizer medication names"
+        ],
+        "matchedSignals": [
+          "শ্বাসকষ্ট"
+        ]
+      }
+    },
+    {
+      "id": "tri-754be4a4",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:11:32.190Z",
+      "input": {
+        "patientName": "Rafiqul Ahmed",
+        "age": 42,
+        "gender": "Male",
+        "division": "Dhaka",
+        "area": "Dhanmondi",
+        "physicalProblems": [
+          "Hypertension (High BP)",
+          "Type 2 Diabetes"
+        ],
+        "drugHistory": [
+          "Metformin 500mg (twice daily)",
+          "Amlodipine 5mg (morning)"
+        ],
+        "chiefComplaint": "আমার শ্বাসকষ্ট আছে কিন্তু কোনো বুকে ব্যথা নেই এবং কোনো শুকনো কাশি নেই",
+        "selectedSymptoms": [],
+        "duration": "2–3 days",
+        "severity": "Moderate"
+      },
+      "result": {
+        "source": "local",
+        "primaryDepartmentId": "cardiology",
+        "specialistTitle": "Cardiologist",
+        "departmentName": "Cardiology",
+        "bengaliName": "হৃদরোগ বিভাগ",
+        "secondaryDepartmentId": "endocrinology",
+        "secondarySpecialistTitle": "Endocrinologist",
+        "urgency": "routine",
+        "urgencyReason": "Suitable for a scheduled chamber consultation with the recommended specialist.",
+        "clinicalSummary": "Based on Rafiqul Ahmed's age (42 yrs) medical history (Hypertension (High BP), Type 2 Diabetes) and chief complaint, you should visit a Cardiologist (Cardiology · হৃদরোগ বিভাগ). If symptoms overlap or initial tests point elsewhere, a Endocrinologist (Endocrinology & Diabetes) is a helpful secondary consultation.",
+        "medicationConsiderations": "Current medications (Metformin 500mg (twice daily), Amlodipine 5mg (morning)) have been noted for your specialist to review for dosage adjustments or interactions.",
+        "questionsForDoctor": [
+          "Could my symptoms be related to my existing conditions or current medications?",
+          "Which diagnostic tests (blood work, imaging, or screening) should I complete before follow-up?",
+          "What warning signs mean I should seek urgent hospital care immediately?"
+        ],
+        "prepChecklist": [
+          "Bring recent blood pressure readings and any past ECG or Echocardiogram reports",
+          "List all blood pressure, cholesterol, or blood-thinner medications"
+        ],
+        "matchedSignals": [
+          "History: hypertension",
+          "History: high bp",
+          "Medication: amlodipine"
+        ]
+      }
+    },
+    {
+      "id": "tri-1f5b9a3a",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-24T06:01:32.359Z",
+      "input": {
+        "patientName": "Rafiqul Ahmed",
+        "age": 42,
+        "gender": "Male",
+        "division": "Dhaka",
+        "area": "Dhanmondi",
+        "physicalProblems": [
+          "Hypertension (High BP)",
+          "Type 2 Diabetes"
+        ],
+        "drugHistory": [
+          "Metformin 500mg (twice daily)",
+          "Amlodipine 5mg (morning)",
+          "Naproxen 500mg"
+        ],
+        "chiefComplaint": "Amar 3 din dhore pet jala korche ar bomi bhab hocche",
+        "selectedSymptoms": [],
+        "duration": "2–3 days",
+        "severity": "Moderate"
+      },
+      "result": {
+        "source": "local",
+        "primaryDepartmentId": "gastroenterology",
+        "specialistTitle": "Gastroenterologist",
+        "departmentName": "Gastroenterology",
+        "bengaliName": "পরিপাকতন্ত্র ও লিভার বিভাগ",
+        "secondaryDepartmentId": "cardiology",
+        "secondarySpecialistTitle": "Cardiologist",
+        "urgency": "routine",
+        "urgencyReason": "Suitable for a scheduled chamber consultation with the recommended specialist.",
+        "clinicalSummary": "Based on Rafiqul Ahmed's age (42 yrs) medical history (Hypertension (High BP), Type 2 Diabetes) and chief complaint, you should visit a Gastroenterologist (Gastroenterology · পরিপাকতন্ত্র ও লিভার বিভাগ). If symptoms overlap or initial tests point elsewhere, a Cardiologist (Cardiology) is a helpful secondary consultation.",
+        "medicationConsiderations": "Important medication note: Painkillers/NSAIDs in your drug history can irritate the stomach lining and worsen ulcer or acidity symptoms. Discuss safer alternatives with a Gastroenterologist.",
+        "questionsForDoctor": [
+          "Could my symptoms be related to my existing conditions or current medications?",
+          "Which diagnostic tests (blood work, imaging, or screening) should I complete before follow-up?",
+          "What warning signs mean I should seek urgent hospital care immediately?"
+        ],
+        "prepChecklist": [
+          "Bring recent liver function tests (SGPT), abdominal ultrasound, or endoscopy reports",
+          "List all painkillers (NSAIDs) and gastric medicines taken recently"
+        ],
+        "matchedSignals": [
+          "bomi",
+          "Medication: naproxen",
+          "NSAID + upper GI symptom correlation"
+        ]
+      }
+    },
+    {
+      "id": "tri-b8cc10c3",
+      "userId": "user-6479cba1",
+      "createdAt": "2026-11-24T05:58:35.929Z",
+      "input": {
+        "patientName": "Farhan Chowdhury",
+        "age": 38,
+        "gender": "Male",
+        "division": "Dhaka",
+        "area": "Dhanmondi",
+        "physicalProblems": [
+          "Hypertension (High BP)"
+        ],
+        "drugHistory": [
+          "Amlodipine 5mg"
+        ],
+        "chiefComplaint": "Chest tightness and shortness of breath when walking uphill for 2 days",
+        "selectedSymptoms": [
+          "Chest tightness or pain"
+        ],
+        "duration": "2–3 days",
+        "severity": "Moderate"
+      },
+      "result": {
+        "source": "local",
+        "primaryDepartmentId": "cardiology",
+        "specialistTitle": "Cardiologist",
+        "departmentName": "Cardiology",
+        "bengaliName": "হৃদরোগ বিভাগ",
+        "secondaryDepartmentId": "pulmonology",
+        "secondarySpecialistTitle": "Pulmonologist",
+        "urgency": "urgent",
+        "urgencyReason": "Chest discomfort accompanied by radiation, sweating, or breathlessness requires immediate cardiac emergency evaluation.",
+        "clinicalSummary": "Based on Farhan Chowdhury's age (38 yrs) medical history (Hypertension (High BP)) and chief complaint, you should visit a Cardiologist (Cardiology · হৃদরোগ বিভাগ). If symptoms overlap or initial tests point elsewhere, a Pulmonologist (Respiratory & Pulmonology) is a helpful secondary consultation.",
+        "medicationConsiderations": "Current medications (Amlodipine 5mg) have been noted for your specialist to review for dosage adjustments or interactions.",
+        "questionsForDoctor": [
+          "Could my symptoms be related to my existing conditions or current medications?",
+          "Which diagnostic tests (blood work, imaging, or screening) should I complete before follow-up?",
+          "What warning signs mean I should seek urgent hospital care immediately?"
+        ],
+        "prepChecklist": [
+          "Bring recent blood pressure readings and any past ECG or Echocardiogram reports",
+          "List all blood pressure, cholesterol, or blood-thinner medications"
+        ],
+        "matchedSignals": [
+          "chest tightness",
+          "History: hypertension",
+          "History: high bp",
+          "Medication: amlodipine",
+          "Urgent clinical red flag"
+        ]
+      }
+    },
+    {
+      "id": "tri-seed-1",
+      "userId": "user-demo-rafiq",
+      "createdAt": "2026-11-22T11:15:00.000Z",
+      "input": {
+        "patientName": "Rafiqul Ahmed",
+        "age": 42,
+        "gender": "Male",
+        "division": "Dhaka",
+        "area": "Dhanmondi",
+        "physicalProblems": [
+          "Hypertension (High BP)",
+          "Type 2 Diabetes"
+        ],
+        "drugHistory": [
+          "Metformin 500mg (twice daily)",
+          "Amlodipine 5mg (morning)"
+        ],
+        "chiefComplaint": "Mild chest tightness and breathlessness when climbing stairs for the last 2 days.",
+        "selectedSymptoms": [
+          "Chest tightness or pain",
+          "Shortness of breath"
+        ],
+        "duration": "2 days",
+        "severity": "Moderate"
+      },
+      "result": {
+        "source": "local",
+        "primaryDepartmentId": "cardiology",
+        "specialistTitle": "Cardiologist",
+        "departmentName": "Cardiology",
+        "bengaliName": "হৃদরোগ বিভাগ",
+        "secondaryDepartmentId": "pulmonology",
+        "secondarySpecialistTitle": "Pulmonologist",
+        "urgency": "urgent",
+        "urgencyReason": "Chest discomfort accompanied by radiation, sweating, or breathlessness requires immediate cardiac emergency evaluation.",
+        "clinicalSummary": "Based on Rafiqul Ahmed's age (42 yrs) medical history (Hypertension (High BP), Type 2 Diabetes) and chief complaint, you should visit a Cardiologist (Cardiology · হৃদরোগ বিভাগ). If symptoms overlap or initial tests point elsewhere, a Pulmonologist (Respiratory & Pulmonology) is a helpful secondary consultation.",
+        "medicationConsiderations": "Current medications (Metformin 500mg (twice daily), Amlodipine 5mg (morning)) have been noted for your specialist to review for dosage adjustments or interactions.",
+        "questionsForDoctor": [
+          "Could my symptoms be related to my existing conditions or current medications?",
+          "Which diagnostic tests (blood work, imaging, or screening) should I complete before follow-up?",
+          "What warning signs mean I should seek urgent hospital care immediately?"
+        ],
+        "prepChecklist": [
+          "Bring recent blood pressure readings and any past ECG or Echocardiogram reports",
+          "List all blood pressure, cholesterol, or blood-thinner medications"
+        ],
+        "matchedSignals": [
+          "chest tightness",
+          "History: hypertension",
+          "History: high bp",
+          "Medication: amlodipine",
+          "Urgent clinical red flag"
+        ]
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-7e1c7997",
+      "userId": "user-demo-rafiq",
+      "doctorId": "doc-gastro-dhk-1",
+      "doctorName": "Prof. Dr. Shafiqul Islam",
+      "departmentName": "Gastroenterology",
+      "hospital": "Square Hospitals Ltd.",
+      "area": "Panthapath",
+      "division": "Dhaka",
+      "feeBdt": 1600,
+      "patientName": "Rafiqul Ahmed",
+      "patientAge": 42,
+      "date": "2026-11-25",
+      "timeSlot": "7:15 PM",
+      "chiefComplaintSummary": "Amar 3 din dhore pet jala korche ar bomi bhab hocche",
+      "drugHistorySummary": "Metformin 500mg (twice daily), Amlodipine 5mg (morning), Naproxen 500mg",
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T06:02:01.590Z"
+    },
+    {
+      "id": "apt-ae1a56ad",
+      "userId": "user-6479cba1",
+      "doctorId": "doc-card-dhk-1",
+      "doctorName": "Prof. Dr. Mahbubur Rahman",
+      "departmentName": "Cardiology",
+      "hospital": "Labaid Specialized Hospital",
+      "area": "Dhanmondi",
+      "division": "Dhaka",
+      "feeBdt": 1500,
+      "patientName": "Farhan Chowdhury",
+      "patientAge": 38,
+      "date": "2026-11-25",
+      "timeSlot": "6:15 PM",
+      "chiefComplaintSummary": "Chest tightness and shortness of breath when walking uphill for 2 days",
+      "drugHistorySummary": "Amlodipine 5mg",
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T05:59:37.810Z"
+    },
+    {
+      "id": "apt-seed-1",
+      "userId": "user-demo-rafiq",
+      "doctorId": "doc-card-dhk-1",
+      "doctorName": "Prof. Dr. Mahbubur Rahman",
+      "departmentName": "Cardiology",
+      "hospital": "Labaid Specialized Hospital",
+      "area": "Dhanmondi",
+      "division": "Dhaka",
+      "feeBdt": 1500,
+      "patientName": "Rafiqul Ahmed",
+      "patientAge": 42,
+      "date": "2026-11-26",
+      "timeSlot": "6:15 PM",
+      "chiefComplaintSummary": "Chest tightness and exertional shortness of breath (2 days)",
+      "drugHistorySummary": "Metformin 500mg, Amlodipine 5mg",
+      "status": "Confirmed",
+      "createdAt": "2026-11-22T11:30:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ShasthoPath",
+  "description": "Specialist doctor finder and symptom triage platform for patients across Bangladesh.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
